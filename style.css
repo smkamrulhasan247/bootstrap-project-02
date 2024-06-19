@@ -1,0 +1,509 @@
+/*==========================
+ header area style Start 
+ ===========================
+ */
+
+.custom_btn {
+  background: #fe8c45;
+  border-radius: 50px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/*===========================
+ header area style End 
+ ===========================
+ */
+
+/*===========================
+ hero area style Start 
+ ===========================
+ */
+.hero_area {
+  position: relative;
+  background: url(img/Ellipse\ 8.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.hero_area h1 {
+  font-size: 74px;
+  font-weight: 700;
+}
+.hero_area .time_heipen {
+  height: 25px;
+  width: 156px;
+  border-radius: 70px;
+  background: blueviolet;
+  position: absolute;
+  top: 308px;
+  left: 260px;
+}
+.in_color {
+  color: blueviolet;
+}
+
+.custom_btn {
+  margin-bottom: 10px;
+}
+
+.carousel-item img {
+  height: 100%;
+  border-radius: 10px;
+}
+.carousel .btn_indicator button {
+  height: 5px;
+  width: 10px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.carousel .btn_indicator button.active {
+  background: blueviolet;
+}
+/*===========================
+ hero area style End 
+ ===========================
+ */
+
+/*===========================
+ About Us area style Start 
+ ===========================
+ */
+.about_us {
+  background: #f3edfe;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.grid_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.horizontal {
+  grid-column: auto / span 4;
+  grid-row: auto / span 2;
+}
+
+.vertical {
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+}
+
+.big {
+  grid-column: auto / span 2;
+  grid-row: auto / span 1;
+}
+
+/* Portfolio grid style */
+
+.tab_content .horizontal {
+  grid-column: auto / span 4;
+  grid-row: auto / span 2;
+}
+.tab_content .vertical {
+  grid-column: auto / span 2;
+  grid-row: auto / span 4;
+}
+.tab_content .big {
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+}
+
+/* Instagram Feed grid style */
+.instagram_content .horizontal {
+  grid-column: auto / span 5;
+  grid-row: auto / span 2;
+}
+/* .instagram_content .vertical {
+  grid-column: auto / span 2;
+  grid-row: auto / span 4;
+} */
+.instagram_content .big {
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+}
+.instagram_content .ver_custom {
+  grid-column: auto / span 2;
+  grid-row: auto / span 3;
+}
+.instagram_content .small_custom {
+  grid-column: auto / span 2;
+  grid-row: auto / span 1;
+}
+/* right side */
+.about_container {
+}
+.about_dot_before {
+  position: relative;
+}
+.about_dot_before h6 {
+  margin-left: 30px;
+}
+.about_dot_before .about_dot {
+  height: 2px;
+  width: 19px;
+  background: #8a47f6;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.about_container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.about_container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 10px;
+}
+.about_container .custom_btn {
+  margin-top: 13px;
+}
+
+/*===========================
+ About Us area style End 
+ ===========================
+ */
+
+/*===========================
+ Our Portfolio area style Start 
+ ===========================
+ */
+.our_portfolio {
+  background-image: url(img/Ellipse\ 9.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.our_portfolio .heading {
+}
+.our_portfolio .heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* tab area  */
+
+.tab_area {
+  margin-top: 40px;
+}
+.tab_area .tab_menu {
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px 0px gray;
+}
+.tab_area .tab_menu .active {
+  background: none;
+  color: #8a47f6;
+  text-decoration: underline;
+}
+.tab_area .tab_menu ul {
+  padding: 7px;
+  justify-content: space-around;
+  font-display: flex;
+}
+.tab_area .tab_menu ul li {
+  font-weight: 500;
+  font-size: 22px;
+}
+.tab_area .tab_menu ul li button {
+  color: #333333;
+}
+.tab_area .tab_content {
+}
+
+/*===========================
+ Our Portfolio area style End 
+ ===========================
+ */
+
+/*===========================
+ Prices area style Start 
+ ===========================
+ */
+.prices_area {
+  background: url(img/Ellipse\ 11.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.prices_area .heading {
+}
+.prices_area .heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.card-custom {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card-custom:hover {
+  transform: translateY(-10px);
+}
+
+.price-btn {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+}
+
+.price-btn:hover {
+  background-color: #ff6347;
+}
+
+.card-dark {
+  background-color: #333;
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.card-dark:hover {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.card-dark:hover .price-btn {
+  background-color: white;
+  color: #333;
+}
+
+/*===========================
+ Prices area style End 
+ ===========================
+ */
+
+/*===========================
+ Testimonials area style Start 
+ ===========================
+ */
+.testimonial_section {
+  background-color: #f7f7ff;
+  padding: 60px 0;
+}
+
+.testimonial_section h2 {
+  font-weight: 700;
+  color: #333;
+}
+
+.testimonial_section p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.testimonial_image {
+  border-radius: 10px;
+}
+
+.client_info {
+  display: flex;
+  align-items: center;
+}
+
+.client_info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.client_name {
+  background-color: #e8e1fc;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 0.9em;
+  color: #5c4dd7;
+  font-weight: 500;
+}
+
+.testimonial_navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.testimonial_navigation button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.testimonial_navigation button:hover {
+  background-color: #5c4dd7;
+  color: #fff;
+  border: 1px solid #5c4dd7;
+}
+.client_info {
+  position: relative;
+}
+.nav_position {
+  position: absolute;
+  top: 10px;
+  left: 210px;
+}
+.nav_position button {
+}
+
+/*===========================
+ Testimonials area style End 
+ ===========================
+ */
+
+/*===========================
+ Instagram Feed area style Start 
+ ===========================
+ */
+.instagram_feed {
+  background: url(img/Ellipse\ 12.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.instagram_feed .heading {
+}
+.instagram_feed .heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.instagram_feed .heading button {
+  padding: 0 30px;
+}
+.instagram_content .horizontal {
+}
+/*===========================
+ Instagram Feed area style End 
+ ===========================
+ */
+
+/*===========================
+ Have A Question? area style Start 
+ ===========================
+ */
+.contact_bg {
+  background: url(img/Ellipse\ 12.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.contact-section {
+  padding: 60px 0;
+}
+
+.contact-form h2 {
+  font-weight: 700;
+  color: #333;
+}
+
+.contact-form p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.contact-info {
+  background-color: #e8e1fc;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-info h5 {
+  font-weight: 700;
+  color: #333;
+}
+
+.contact-info p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contact-info .icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+  color: blueviolet;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+/*===========================
+ Have A Question? area style End 
+ ===========================
+ */
+
+/*===========================
+ Footer area style Start 
+ ===========================
+ */
+
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer a {
+  color: #fff;
+  margin-right: 15px;
+  transition: 0.5s;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: burlywood;
+}
+.footer .social-icons a {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  padding: 2px;
+  height: 30px;
+  width: 30px;
+  transition: 0.5s;
+}
+.footer .social-icons a:hover {
+  background: blueviolet;
+  color: #fff;
+  border-radius: 10%;
+}
+
+/*===========================
+ Footer area style End 
+ ===========================
+ */
+
+/*===========================
+ .... area style Start 
+ ===========================
+ */
+
+/*===========================
+ .... area style End 
+ ===========================
+ */

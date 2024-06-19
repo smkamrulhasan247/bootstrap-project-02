@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1199px) {
+  .custom li a {
+  }
+  .custom button {
+    font-size: 12px;
+  }
+  .hero_area .time_heipen {
+    width: 120px;
+    left: 411px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .hero_area .time_heipen {
+    left: 350px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .hero_area h1 {
+    font-size: 37px;
+  }
+  .hero_area .time_heipen {
+    left: 240px;
+    top: 195px;
+  }
+
+  .horizontal {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+
+  .vertical {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+  }
+
+  .big {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .hero_area .time_heipen {
+    top: 150px;
+  }
+  .custom_responsive img {
+    margin-top: 20px;
+  }
+  .testimonial_section img {
+    margin-top: 20px;
+  }
+  .footer .custom_responsive {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer .custom_responsive a i {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .footer .custom_responsive .f_s_i {
+    text-align: center;
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .hero_area h1 {
+    font-size: 28px;
+  }
+  .hero_area .time_heipen {
+    display: none;
+  }
+  .about_container h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .our_portfolio .heading h2 {
+    font-size: 28px;
+    margin-bottom: -18px;
+  }
+  .tab_area .tab_menu ul li {
+    font-size: 14px;
+  }
+  .prices_area .heading h2 {
+    font-size: 28px;
+  }
+  .instagram_feed .heading h2 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .hero_area h1 {
+    font-size: 23px;
+  }
+  .about_container h2 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .our_portfolio .heading h2 {
+    font-size: 23px;
+    margin-bottom: -18px;
+  }
+  .tab_area .tab_menu ul li {
+    font-size: 7px;
+    font-weight: 700;
+  }
+  .prices_area .heading h2 {
+    font-size: 23px;
+  }
+  .instagram_feed .heading h2 {
+    font-size: 23px;
+  }
+}
